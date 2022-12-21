@@ -1,0 +1,47 @@
+[
+    {
+        "command": "cc -c -Wall -Wextra -pedantic -std=c17 -g -Iinclude -o src/main.o src/main.c",
+        "directory": "/home/heikkinen/projects/autocli",
+        "file": "/home/heikkinen/projects/autocli/src/main.c"
+    },
+    {
+        "command": "cc -c -Wall -Wextra -pedantic -std=c17 -g -Iinclude -o src/entity/player.o src/entity/player.c",
+        "directory": "/home/heikkinen/projects/autocli",
+        "file": "/home/heikkinen/projects/autocli/src/entity/player.c"
+    },
+    {
+        "command": "cc -c -Wall -Wextra -pedantic -std=c17 -g -Iinclude -o src/system/render.o src/system/render.c",
+        "directory": "/home/heikkinen/projects/autocli",
+        "file": "/home/heikkinen/projects/autocli/src/system/render.c"
+    },
+    {
+        "command": "cc -c -Wall -Wextra -pedantic -std=c17 -g -Iinclude -o src/game/chunk.o src/game/chunk.c",
+        "directory": "/home/heikkinen/projects/autocli",
+        "file": "/home/heikkinen/projects/autocli/src/game/chunk.c"
+    },
+    {
+        "command": "cc -c -Wall -Wextra -pedantic -std=c17 -g -Iinclude -o src/game/game.o src/game/game.c",
+        "directory": "/home/heikkinen/projects/autocli",
+        "file": "/home/heikkinen/projects/autocli/src/game/game.c"
+    },
+    {
+        "command": "cc -c -Wall -Wextra -pedantic -std=c17 -g -Iinclude -o src/system/handle_input.o src/system/handle_input.c",
+        "directory": "/home/heikkinen/projects/autocli",
+        "file": "/home/heikkinen/projects/autocli/src/system/handle_input.c"
+    },
+    {
+        "command": "cc -c -Wall -Wextra -pedantic -std=c17 -g -Iinclude -o src/util/quit.o src/util/quit.c",
+        "directory": "/home/heikkinen/projects/autocli",
+        "file": "/home/heikkinen/projects/autocli/src/util/quit.c"
+    },
+    {
+        "command": "cc -c -Wall -Wextra -pedantic -std=c17 -g -Iinclude -o src/util/tiles.o src/util/tiles.c",
+        "directory": "/home/heikkinen/projects/autocli",
+        "file": "/home/heikkinen/projects/autocli/src/util/tiles.c"
+    },
+    {
+        "command": "cc -c -Wall -Wextra -pedantic -std=c17 -g -Iinclude -o src/util/vector.o src/util/vector.c",
+        "directory": "/home/heikkinen/projects/autocli",
+        "file": "/home/heikkinen/projects/autocli/src/util/vector.c"
+    }
+]
