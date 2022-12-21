@@ -1,7 +1,7 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#include "../chunk.h"
+#include "../game/chunk.h"
 #include "../component/component.h"
 
 void init_player_entity(struct Chunk*);
