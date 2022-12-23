@@ -10,6 +10,12 @@ struct Vector add_scalar_vec(const struct Vector* v, long scalar) {
   return (struct Vector){ v->x + scalar, v->y + scalar };
 }
 
+
+bool vec_eq(const struct Vector* v1, const struct Vector* v2) {
+  return (v1->x == v2->x) && (v1->y == v2->y);
+}
+
+
 struct Vector mult_scalar_vec(const struct Vector* v, long scalar) {
   return (struct Vector){ v->x * scalar, v->y * scalar };
 }

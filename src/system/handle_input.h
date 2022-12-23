@@ -3,6 +3,6 @@
 
 #include "../game/chunk.h"
 
-void handle_input(struct Chunk*, size_t);
+void update_input(struct Chunk*, size_t);
 
 #endif

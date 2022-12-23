@@ -6,6 +6,7 @@
 
 void init_player_entity(struct Chunk*);
 
-#define PLAYER_COMPONENTS (POSITION_LOCK | CONTROLLER_LOCK)
+#define PLAYER_COMPONENTS \
+  (POSITION_LOCK | RENDER_LOCK | COLLIDER_LOCK | CONTROLLER_LOCK)
 
 #endif

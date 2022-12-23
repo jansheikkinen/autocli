@@ -1,6 +1,6 @@
 CC = gcc
 LIBS = -lncurses
-CFLAGS = -Wall -Wextra -pedantic -std=c17 -g $(LIBS)
+CFLAGS = -Wall -Wextra -pedantic -g $(LIBS)
 INCLUDE = -Iinclude
 
 SRC = $(wildcard src/*.c) $(wildcard src/**/*.c)

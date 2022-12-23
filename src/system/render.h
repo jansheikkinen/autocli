@@ -3,6 +3,6 @@
 
 #include "../game/chunk.h"
 
-void render(struct Chunk*, size_t);
+void update_render(struct Chunk*, size_t);
 
 #endif

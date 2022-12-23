@@ -34,8 +34,7 @@ void update_chunk(struct Chunk* chunk) {
   render_tiles(chunk);
 
   for(size_t entity = 0; entity < chunk->entity_manager.entities; entity++) {
-    handle_input(chunk, entity);
-    // handle collisions
-    render(chunk, entity);
+    update_input(chunk, entity);
+    update_render(chunk, entity);
   }
 }
