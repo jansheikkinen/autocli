@@ -12,7 +12,7 @@ void init_default_settings(struct Settings* settings) {
   settings->render_distance = 8;
 }
 
-void init_chunks(struct Game* game, struct World* world) {
+static void init_chunks(struct Game* game, struct World* world) {
   size_t render_distance = GET_RENDER_DISTANCE(game);
 
   for(size_t y = 0; y < render_distance; y++) {

@@ -16,7 +16,7 @@ void init_debug_chunk(struct Chunk* chunk) {
   }
 }
 
-void render_tiles(const struct Chunk* chunk) {
+static void render_tiles(const struct Chunk* chunk) {
   for(size_t chunk_y = 0; chunk_y < CHUNK_SIZE; chunk_y++) {
     for(size_t chunk_x = 0; chunk_x < CHUNK_SIZE; chunk_x++) {
       struct Vector chunk_pos = (struct Vector){ chunk_x, chunk_y };

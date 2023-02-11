@@ -11,13 +11,13 @@
 
 struct Game game;
 
-void init_screen(void) {
+static void init_screen(void) {
   setlocale(LC_ALL, "");
   initscr(); cbreak(); nodelay(stdscr, true); keypad(stdscr, true); noecho();
   curs_set(0); start_color();
 }
 
-void setup(void) {
+static void setup(void) {
   init_screen();
 
   struct Settings settings;
@@ -83,6 +83,9 @@ int main(void) {
       clear();
       update_world(game.world);
       print_debug_info();
+
+      while(getch() != ERR);
+
       refresh();
     }
   }
